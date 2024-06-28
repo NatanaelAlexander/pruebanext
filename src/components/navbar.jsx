@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="">
-      <span className="flex flex-row justify-between bg-blue-900 py-3 px-5 w-full">
+      <span className="flex flex-row justify-between bg-blue-900 py-3 px-5 w-full overflow-hidden">
         <div className="hidden">
           <div className="h-2 w-2 rounded-full bg-red-700"></div>
           <p className="">Estamos preparados las 24 Horas</p>

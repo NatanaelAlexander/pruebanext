@@ -10,7 +10,7 @@ export default function Hero() {
       <Image
         src={Casa} // Ruta a tu imagen en la carpeta public
         alt="casaBonita"
-        className='object-cover h-screen'
+        className='object-cover h-[800px]'
       />
       <section className='absolute top-0 px-5 w-full mt-20 flex items-center justify-center flex-col'>
 
