@@ -39,7 +39,6 @@ export default function Navbar() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </div>
-
         {/* Renderizado condicional basado en el estado */}
         {mostrarComponente && (
           <div className="bg-white h-screen w-2/3 absolute top-0 right-0 shadow-2xl">
