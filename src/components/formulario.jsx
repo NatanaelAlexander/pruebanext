@@ -7,7 +7,7 @@ const Formulario = () => {
             <div className='flex flex-col gap-4 mt-6'>
 
                 <input
-                    className='bg-gray-100 rounded w-full p-3'
+                    className='bg-gray-100 text-black rounded w-full p-3'
                     id="name"
                     placeholder='Nombre'
                     name="name"
@@ -16,7 +16,7 @@ const Formulario = () => {
                     required
                 />
 
-                <input className='bg-gray-100 rounded w-full p-3'
+                <input className='bg-gray-100 rounded text-black w-full p-3'
                     placeholder='Email'
                     id="email"
                     name="email"
@@ -25,7 +25,7 @@ const Formulario = () => {
                     required
                 />
                 <textarea
-                    className='bg-gray-100 rounded  w-full p-3 h-28'
+                    className='bg-gray-100 rounded text-black  w-full p-3 h-28'
                     placeholder='Te gusto algun servicio o tienes dudas?'
                     id="email"
                     name="email"
@@ -36,13 +36,13 @@ const Formulario = () => {
 
                 <div>
 
-                    <button className="relative flex items-center justify-center text-xl text-white bg-blue-500 rounded-full w-full py-2">
-                        <span className="">Solicitar Presupuesto</span>
+                    <button className="relative flex items-center justify-center text-xl  bg-blue-500 text-blue-500 hover:text-blue-800 hover:bg-blue-800 transition-all rounded-full w-full py-2">
+                        <span className="text-white">Solicitar Presupuesto</span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className="absolute right-1 size-8 p-1 rounded-full text-blue-500 bg-white"
+                            className="absolute right-2 size-7 p-1 rounded-full  bg-white"
                         >
                             <path
                                 fillRule="evenodd"

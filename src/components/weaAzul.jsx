@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section>
-        Hola
+        <h1>HOLA</h1>
     </section>
   );
 }
