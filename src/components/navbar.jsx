@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           {/* Renderizado condicional basado en el estado */}
           {mostrarComponente && (
-            <div className="bg-white h-screen w-2/3 absolute top-0 z-10  right-0 shadow-2xl md:hidden">
+            <div className="bg-white h-[800px] w-2/3 absolute top-0 z-10  right-0 shadow-2xl md:hidden">
               <div className="px-5 py-6 w-full flex flex-col">
 
                 <div className='w-full flex justify-end'>
