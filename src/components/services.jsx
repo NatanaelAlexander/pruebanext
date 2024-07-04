@@ -1,16 +1,19 @@
 import Image from 'next/image';
 import service from '@/data/service';
 
+import Slider from './carouselSplide';
+import React from 'react';
 export default function Services() {
+    
     return (
-        <section className="px-5">
-            <h2 className="text-2xl font-bold text-center pt-14 pb-7">
-                Soluciones integrales y servicios para el hogar
+        <section className="px-5 pt-14 pb-7">
+            <h2 className="text-2xl font-bold text-center md:text-4xl md:pb-10 poppyns">
+                Soluciones integrales y servicios<br/>para el hogar
             </h2>
 
-            <div className='flex flex-col gap-5'>
+            <div className='flex flex-col gap-5 pt-7'>
                 {service.map((servicio, index) => (
-                    <div key={index} className="relative">
+                    <div key={index} className="relative md:hidden">
                         <Image
                             src={servicio.imagen}
                             alt="Casa Bonita"
@@ -25,6 +28,9 @@ export default function Services() {
                         </span>
                     </div>
                 ))}
+            </div>
+            <div className='hidden md:flex'>
+            <Slider></Slider>
             </div>
         </section>
     );
