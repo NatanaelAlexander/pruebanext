@@ -9,12 +9,7 @@ import Head from 'next/head';
 
 export default function Hero() {
   return (
-
     <div>
-      <Head>
-        <title>Inicio</title>
-      </Head>
-
       {/* Header */}
       <header className="relative h-[800px] bg-gray-900 text-white flex items-center justify-center">
         {/* Fondo de imagen */}

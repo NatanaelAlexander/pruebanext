@@ -10,7 +10,7 @@ import service from '@/data/service';
 
 const Slider = () => {
     return (
-        <section className='overflow-hidden container mx-auto ' style={{ maskImage: 'linear-gradient(90deg, rgba(0,0,0,0) 4%, rgba(19,7,17,1) 16%, rgba(178,66,155,1) 86%, rgba(195,72,170,0) 96%)'}}>
+        <section className='overflow-hidden container mx-auto ' style={{ maskImage: 'linear-gradient(90deg, rgba(0,0,0,0) 4%, rgba(19,7,17,1) 16%, rgba(178,66,155,1) 86%, rgba(195,72,170,0) 96%)' }}>
             <Splide options={{
                 type: 'slide',
                 perPage: 2,  // Mostrar 3 elementos a la vez
@@ -22,7 +22,7 @@ const Slider = () => {
                 pagination: true
             }}>
                 {service.map((servicio, index) => (
-                    <SplideSlide key={index} className='relative h-96 hover:opacity-65 hover:cursor-pointer'>
+                    <SplideSlide key={index} className='relative h-96 cursor-pointer'>
                         <Image
                             src={servicio.imagen}
                             alt="Casa Bonita"
@@ -42,9 +42,6 @@ const Slider = () => {
             </Splide>
 
             <style jsx global>{`
-        .splide__slide--next {
-          opacity: 0.5;
-        }
       `}</style>
         </section>
     );
