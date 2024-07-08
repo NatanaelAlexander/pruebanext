@@ -2,10 +2,10 @@ import porque from "@/data/porque";
 
 export default function PorqueElegirnos() {
     return (
-        <section className="px-5 md:container md:mx-auto ">
-                <article className="py-7 flex flex-col gap-2 md:mx-auto md:justify-between md:items-center md:pt-36 md:pb-10 md:px-10">
+        <section className="px-5 md:pb-20 md:container md:mx-auto">
+                <article className="pt-7 pb-11 flex flex-col gap-2 md:mx-auto md:justify-between md:items-center md:pt-36 md:pb-10 md:px-10">
 
-                    <h2 className="text-2xl font-bold text-center md:text-5xl md:pb-10 poppyns">¿Por qué elegirnos?</h2>
+                    <h2 className="text-2xl font-bold text-center md:text-4xl md:pb-10 poppyns">¿Por qué elegirnos?</h2>
                     <p className="text-gray-500 text-base font-normal md:w-1/2 md:pt-5 md:text-center md:text-lg md:font-semibold md:text-gray-400 md:-mt-10">Tranquilidad con seguridad de primer nivel, automatización perfecta y atención excepcional para tu hogar inteligente.</p>
 
                 </article>

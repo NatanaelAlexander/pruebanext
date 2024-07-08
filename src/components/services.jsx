@@ -3,10 +3,12 @@ import service from '@/data/service';
 
 import Slider from './carouselSplide';
 import React from 'react';
+
 export default function Services() {
     
     return (
-        <section className="px-5 pt-14 pb-7">
+        <section className="px-5 pt-14 md:pt-20 pb-7">
+            
             <h2 className="text-2xl font-bold text-center md:text-4xl md:pb-10 poppyns">
                 Soluciones integrales y servicios<br/>para el hogar
             </h2>

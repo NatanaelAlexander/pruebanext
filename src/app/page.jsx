@@ -4,6 +4,7 @@ import Services from "@/components/services";
 import PorqueElegirnos from "@/components/porqueElegirnos";
 import Footer from "@/components/footer";
 import Optimiza from "@/components/optimiza";
+import Ahorro from "@/components/ahorro";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PorqueElegirnos></PorqueElegirnos>
       <Footer></Footer>
       <Optimiza></Optimiza>
+      <Ahorro></Ahorro>
     </main>
   );
 }
