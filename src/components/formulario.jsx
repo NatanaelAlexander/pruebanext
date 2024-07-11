@@ -35,7 +35,6 @@ const Formulario = () => {
                 />
 
                 <div>
-
                     <button className="relative flex items-center justify-center text-xl  bg-blue-500 text-blue-500 hover:text-blue-800 hover:bg-blue-800 transition-all rounded-full w-full py-2">
                         <span className="text-white">Solicitar Presupuesto</span>
                         <svg
